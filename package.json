@@ -1,6 +1,6 @@
 {
   "name": "node-modules-tree",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utility to create a map of components of your react application",
   "main": "index.js",
   "scripts": {
