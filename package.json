@@ -1,0 +1,71 @@
+{
+  "name": "node-modules-tree",
+  "version": "0.0.0",
+  "description": "Utility to create a map of components of your react application",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "standard && mocha --compilers js:babel-register",
+    "test-watch": "mocha -w --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreleite/node-modules-tree.git"
+  },
+  "keywords": [
+    "node",
+    "modules",
+    "tree"
+  ],
+  "author": "André Leite <andre@andre.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreleite/node-modules-tree/issues"
+  },
+  "babel": {
+    "presets": [
+      "node6"
+    ],
+    "plugins": [
+      "syntax-async-functions",
+      "transform-async-to-generator"
+    ]
+  },
+  "homepage": "https://github.com/andreleite/node-modules-tree#readme",
+  "bin": {
+    "node-modules-tree": "./bin/node-modules-tree"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "expect": "^1.20.1",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-node6": "^11.0.0",
+    "babel-register": "^6.9.0",
+    "colors": "^1.1.2",
+    "detective-es6": "^1.1.5",
+    "minimist": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=5"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect"
+    ]
+  }
+}
