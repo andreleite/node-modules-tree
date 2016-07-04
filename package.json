@@ -27,8 +27,7 @@
       "node6"
     ],
     "plugins": [
-      "syntax-async-functions",
-      "transform-async-to-generator"
+      "syntax-async-functions"
     ]
   },
   "homepage": "https://github.com/andreleite/node-modules-tree#readme",
