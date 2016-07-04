@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
-require('babel-register')
+require('babel-register')({
+  ignore: false,
+  only: /lib/
+});
 require('babel-polyfill')
 
 require('./../lib/index').run()
