@@ -25,4 +25,5 @@ Parameters:
 -f  file to start
 -c  files with this pattern in its content will be highlighted
 -n  files with this pattern in its name will be highlighted
+-j  output the result as json
 ```
