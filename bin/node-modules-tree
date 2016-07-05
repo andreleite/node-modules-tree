@@ -2,7 +2,6 @@
 
 require('babel-polyfill')
 require('babel-register')({
-  ignore: false,
   only: /lib/
 });
 
