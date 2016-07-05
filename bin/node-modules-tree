@@ -2,11 +2,7 @@
 
 require('babel-polyfill')
 require('babel-register')({
-  ignore: [
-    'node_modules',
-    'babel-plugin-transform-react-jsx/lib/index.js'
-  ],
-  only: /lib/
+  only: /node-modules-tree\/lib/
 });
 
 require('./../lib/index').run()
