@@ -22,14 +22,6 @@
   "bugs": {
     "url": "https://github.com/andreleite/node-modules-tree/issues"
   },
-  "babel": {
-    "presets": [
-      "node6"
-    ],
-    "plugins": [
-      "syntax-async-functions"
-    ]
-  },
   "homepage": "https://github.com/andreleite/node-modules-tree#readme",
   "bin": {
     "node-modules-tree": "./bin/node-modules-tree"
